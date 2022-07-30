@@ -13,15 +13,15 @@ public class Converter {
         float euro = ru.job4j.Converter.rubleToEuro(140);
         float dollar = ru.job4j.Converter.rubleToDollar(140);
         float in = 140;
-        float expectedEuro = 2;
+        float expected = 2;
         float out = Converter.rubleToEuro(in);
-        boolean passed = expectedEuro == out;
-        System.out.println("140 rubles are 2 euro. Test result : " + passed);
+        boolean passed = expected == out;
+        System.out.println("140 rubles are 2. Test result : " + passed);
         System.out.println("140 rubles are " + euro + " euro.");
-        double expectedDollars = Converter.rubleToDollar(in);
+         in = 140;
+         expected = 140 / 60;
          out = Converter.rubleToDollar(in);
-         passed = expectedDollars == out;
-        System.out.println("140 rubles are 2.3333333 dollar. Test result : " + passed);
-        System.out.println("140 rubles are " + dollar + " dollar.");
+         passed = expected == out;
+        System.out.println("140 rubles are 2. Test result : " + passed);
     }
 }
