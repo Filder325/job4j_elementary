@@ -1,4 +1,4 @@
-package ru.job4j.math;
+ο»Ώpackage ru.job4j.match;
 import static ru.job4j.math.MathFunction.*;
 public class MathCalcultion {
     public static double a1(double first, double second) {
@@ -8,8 +8,7 @@ public class MathCalcultion {
         return min(first, second) + del(first, second) + sum(first, second) + multiply(first, second);
     }
     public static void main(String[] args) {
-        System.out.println("Πεησλόςΰς πΰρχεςΰ πΰβεν: " + a1(10, 20));
-        System.out.println("Πεησλόςΰς πΰρχεςΰ πΰβεν: " + a2(10, 20));
+        System.out.println("Π ΠµΠ·ΡƒΠ»ΡΡ‚Π°Ρ‚ Ρ€Π°ΡΡ‡ΠµΡ‚Π° Ρ€Π°Π²ΠµΠ½: " + a1(10, 20));
+        System.out.println("Π ΠµΠ·ΡƒΠ»ΡΡ‚Π°Ρ‚ Ρ€Π°ΡΡ‡ΠµΡ‚Π° Ρ€Π°Π²ΠµΠ½: " + a2(10, 20));
     }
 }
-

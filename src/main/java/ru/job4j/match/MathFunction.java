@@ -1,8 +1,6 @@
-package ru.job4j.math;
+ο»Ώpackage ru.job4j.match;
 import static ru.job4j.math.MathFunction.*;
-
 public class MathFunction {
-
     public static double sum(double first, double second) {
         return first + second;
     }
@@ -20,6 +18,7 @@ public class MathFunction {
                 + multiply(first, second);
     }
     public static void main(String[] args) {
-        System.out.println("Πεησλόςΰς πΰρχεςΰ πΰβεν: " + sumAndMultiply(10, 20));
+        System.out.println("Π ΠµΠ·ΡƒΠ»ΡΡ‚Π°Ρ‚ Ρ€Π°ΡΡ‡ΠµΡ‚Π° Ρ€Π°Π²ΠµΠ½: " + sumAndMultiply(10, 20));
+
     }
 }
