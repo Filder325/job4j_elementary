@@ -1,4 +1,4 @@
-﻿package ru.job4j.match;
+﻿package ru.job4j.math;
 import static ru.job4j.math.MathFunction.*;
 public class MathCalcultion {
     public static double a1(double first, double second) {
