@@ -14,8 +14,7 @@ public class MathCalculator {
     }
 
     public static double sumAndMultiplyAndMinusAndDel(double first, double second) {
-        return sum(first, second)
-                + multiply(first, second) + minus(first, second) + del(first, second);
+        return sum(first, second) + multiply(first, second) + minus(first, second) + del(first, second);
     }
 
     public static void main(String[] args) {
