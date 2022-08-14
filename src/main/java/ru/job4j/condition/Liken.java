@@ -10,5 +10,5 @@ public static void main(String[] args) {
     System.out.println(result);
     result = first == second;
     System.out.println(result);
-        }
+}
 }
